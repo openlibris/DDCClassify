@@ -1,6 +1,6 @@
 <a href="https://www.mrfake.name/ghpromo" target="_blank"><img src="https://mrfake.name/ghpromo/promo.png" height="250"></a>
 
-| :package: Composer support is coming soon!
+| :package: Composer support has finally arrived!
 | ---
 
 # DDCClassify
@@ -15,16 +15,10 @@ DDCClassify uses OCLC's API (which powers WorldCat) and extracts the Dewey Decim
 
 ### Introduction
 
-To use DDCClassify, you must first include the autoload script.
+Install DDCClassify using Composer.
 
 ```
-include 'vendor/autoload.php';
-```
-
-You must then create a `DeweyDecimal` object.
-
-```
-$dewey = new DeweyDecimal();
+composer require fakerybakery/ddcclassify
 ```
 
 ### Classify
