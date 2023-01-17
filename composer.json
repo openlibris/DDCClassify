@@ -1,0 +1,21 @@
+{
+    "name": "fakerybakery/ddcclassify",
+    "type": "library",
+    "homepage": "https://github.com/fakerybakery/DDCClassify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mrfakename",
+            "email": "me@mrfake.name",
+            "homepage": "https://github.com/fakerybakery"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fakerybakery\\":"src/"
+        }
+    }
+}
