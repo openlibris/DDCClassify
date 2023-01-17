@@ -21,6 +21,11 @@ Install DDCClassify using Composer.
 composer require fakerybakery/ddcclassify
 ```
 
+```php
+include 'vendor/autoload.php';
+use fakerybakery/DDCClassify;
+```
+
 ### Classify
 
 #### By ISBN
