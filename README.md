@@ -13,6 +13,10 @@ DDCClassify uses OCLC's API (which powers WorldCat) and extracts the Dewey Decim
 
 ## Usage
 
+### Caching
+
+Caching is used to speed up requests as uncached requests are quite slow. By default, requests are cached for a year.
+
 ### Introduction
 
 Install DDCClassify using Composer.
