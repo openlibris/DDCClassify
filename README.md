@@ -58,4 +58,4 @@ $dewey = new DeweyDecimal();
 $dewey->ClassifyTitleAuthor('Dune', 'Frank Herbert'); // Output: 813.54
 ```
 
-&copy; 2022 mrfakename. All rights reserved.
+&copy; 2023 mrfakename. All rights reserved.
