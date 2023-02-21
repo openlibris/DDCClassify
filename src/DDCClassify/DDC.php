@@ -1,5 +1,5 @@
 <?php
-namespace fakerybakery/DDCClassify
+namespace fakerybakery\DDCClassify;
 class DeweyDecimal
 {
     private function fgc($url) {
