@@ -1,6 +1,6 @@
 <a href="https://www.mrfake.name/ghpromo" target="_blank"><img src="https://mrfake.name/ghpromo/promo.png" height="250"></a>
 
-| :package: Composer support has finally arrived!
+| :warning: Composer support is currently broken. We are working on this.
 | ---
 
 # DDCClassify
