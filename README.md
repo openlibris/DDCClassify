@@ -27,7 +27,7 @@ composer require fakerybakery/ddcclassify
 
 ```php
 include 'vendor/autoload.php';
-use fakerybakery/DDCClassify;
+use fakerybakery\DDCClassify;
 ```
 
 ### Classify
