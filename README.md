@@ -1,11 +1,7 @@
-<a href="https://www.mrfake.name/ghpromo" target="_blank"><img src="https://mrfake.name/ghpromo/promo.png" height="250"></a>
-
 | :warning: Composer support is currently broken. We are working on this.
 | ---
 
 # DDCClassify
-
-NOTE: See the step-by-stop explanation (how to build it!) [on my blog](https://blog.mrfake.name/2022/08/12/dewey-decimal/)!
 
 ## Introduction
 
@@ -19,16 +15,7 @@ Caching is used to speed up requests as uncached requests are quite slow. By def
 
 ### Introduction
 
-Install DDCClassify using Composer.
-
-```
-composer require fakerybakery/ddcclassify
-```
-
-```php
-include 'vendor/autoload.php';
-use fakerybakery\DDCClassify;
-```
+Install DDCClassify by moving `src/DDCClassify.php` to your website directory.
 
 ### Classify
 
@@ -43,7 +30,7 @@ $dewey->ClassifyISBN(string $isbn); -> string
 Example (with includes and object creation):
 
 ```
-require 'vendor/autoload.php';
+require 'DDCClassify.php';
 $dewey = new DeweyDecimal();
 $dewey->ClassifyISBN('059309932X'); // Output: 813.54
 ```
@@ -57,9 +44,9 @@ $dewey->ClassifyTitleAuthor(string $title, string $author = '' (optional)); -> s
 Example (with includes and object creation):
 
 ```
-require 'vendor/autoload.php';
+require 'DDCClassify.php';
 $dewey = new DeweyDecimal();
 $dewey->ClassifyTitleAuthor('Dune', 'Frank Herbert'); // Output: 813.54
 ```
 
-&copy; 2023 mrfakename. All rights reserved.
+&copy; 2023 OpenLibris. All rights reserved.
