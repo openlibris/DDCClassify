@@ -48,5 +48,3 @@ require 'DDCClassify.php';
 $dewey = new DeweyDecimal();
 $dewey->ClassifyTitleAuthor('Dune', 'Frank Herbert'); // Output: 813.54
 ```
-
-&copy; 2023 OpenLibris. All rights reserved. DDCClassify is not related or affiliated with OCLC.
